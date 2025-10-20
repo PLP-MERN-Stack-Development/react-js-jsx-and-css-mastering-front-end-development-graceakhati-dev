@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Ignore config files so Netlify doesn’t treat them as functions
+[functions]
+  included_files = []
