@@ -1,70 +1,103 @@
-# React.js and Tailwind CSS Assignment
+🚀 Project Overview
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+This project is part of the React.js and Tailwind CSS assignment in the Mastering Front-End Development module.
+It demonstrates practical skills in:
 
-## Assignment Overview
+React component architecture
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+State management with Hooks
 
-## Getting Started
+Routing using React Router
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
+API integration
 
-## Files Included
+Styling using Tailwind CSS
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
+The app features multiple pages (Home, Task Manager, API) and a responsive design with a pastel pink and grey theme.
 
-## Requirements
+🧩 Features
 
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
+✅ Responsive UI built with Tailwind CSS
+✅ Navigation bar for seamless routing
+✅ Task Manager — add, edit, and delete tasks
+✅ API Page — displays data fetched from an external API
+✅ Modular structure using React Components
+✅ Clean and beginner-friendly code
 
-## Project Structure
+🛠️ Tech Stack
 
-```
+React.js (Vite) — Frontend Framework
+
+Tailwind CSS — Utility-first CSS framework
+
+React Router DOM — Client-side routing
+
+JavaScript (ES6+) — Functionality and logic
+
+📂 Folder Structure
 src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
-```
+ ┣ components/
+ ┃ ┗ Navbar.jsx
+ ┣ pages/
+ ┃ ┣ Home.jsx
+ ┃ ┣ TaskManager.jsx
+ ┃ ┗ API.jsx
+ ┣ App.jsx
+ ┣ main.jsx
+ ┗ index.css
 
-## Submission
+⚙️ Installation & Setup
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+To run this project locally:
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+# 1️⃣ Clone your repo
+git clone https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-mastering-front-end-development-graceakhati-dev.git
 
-## Resources
+# 2️⃣ Move into project directory
+cd react-js-jsx-and-css-mastering-front-end-development-graceakhati-dev
 
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+# 3️⃣ Install dependencies
+npm install
+
+# 4️⃣ Start development server
+npm run dev
+
+
+Then open the app in your browser at
+👉 http://localhost:5173
+
+🌐 Deployment (Preview Instructions)
+
+You can deploy this React app easily using Vercel or Netlify.
+
+Option 1 — Deploy on Vercel
+
+Go to https://vercel.com
+
+Click "New Project" → "Import GitHub Repository"
+
+Select your assignment repo.
+
+Vercel auto-detects it as a Vite + React app.
+
+Click Deploy 🎉
+
+Option 2 — Deploy on Netlify
+
+Go to https://app.netlify.com/start
+
+Connect your GitHub account and choose your repo.
+
+Build command: npm run build
+Publish directory: dist
+
+Click Deploy Site 🚀
+
+👩‍💻 Author
+
+Grace Akhati
+📧 graceakhati2@gmail.com
+
+💼 LinkedIn Profile
+
+🌐 GitHub: @graceakhati-dev
