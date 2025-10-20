@@ -93,6 +93,8 @@ Publish directory: dist
 
 Click Deploy Site 🚀
 
+Link to deployed site https://mytaskmasterr.netlify.app/ 
+
 👩‍💻 Author
 
 Grace Akhati
