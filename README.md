@@ -1,3 +1,7 @@
+**MERN WEEK 3 ASSIGNMENT
+PLP JULY 2025 COHORT
+STUDENT: GRACE AKHATI**
+
 # TaskFlow
 
 > Plan smart. Work better. Stay in flow.
@@ -290,7 +294,7 @@ The application is fully responsive and optimized for all screen sizes:
 
 This application can be deployed to various platforms. Here are instructions for the most popular options:
 
-### Option 1: Deploy to Vercel (Recommended)
+### Option 1: Deploy to Vercel 
 
 Vercel provides excellent support for Vite applications with zero configuration.
 
@@ -426,15 +430,11 @@ npm run deploy
 
 ### Deployed Application URL
 
-Once deployed, your application will be available at:
 
-**Vercel**: `https://your-project-name.vercel.app`
 
-**Netlify**: `https://your-project-name.netlify.app`
+**Netlify**: https://merntaskflow.netlify.app/
 
-**GitHub Pages**: `https://your-username.github.io/your-repo-name/`
 
-> 📝 **Note**: Replace the placeholder URLs above with your actual deployed application URL after deployment.
 
 ## 🛠 Technologies Used
 
